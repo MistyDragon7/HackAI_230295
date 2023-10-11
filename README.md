@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 # Temperature Alert Agent
 
 A temperature alert made while implementing the uAgents library provided by Fetch.ai. The project offers the following two functionalities:
