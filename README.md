@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # Temperature Alert Agent
 
 A temperature alert made while implementing the uAgents library provided by Fetch.ai. The project offers the following two functionalities:
@@ -38,10 +39,11 @@ In a command line interface, run:
     poetry shell
     cd src
     main.py
-As of now, the asynchronous call to the uAgent causes Tkinter inputs to be invalid; and we must take inputs via command line.
 
+Note: First the Set Temp Alerts window opens, and if the dataplot is required, we close it, then the new window opens.    
 ### ****Database****
 
 All the temperature results are inputted into the following MySQL database, the structure of which is shown below:
 
 ![Screenshot 2023-10-11 043233](https://github.com/MistyDragon7/HackAI_230295/assets/120657456/176cf98c-e812-403e-8bd1-7f211054683f)
+=======

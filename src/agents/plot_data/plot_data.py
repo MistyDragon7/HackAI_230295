@@ -46,11 +46,9 @@ async def visualise_data(ctx: Context):
     my_cursor = connection.cursor()
     #   Getting city as input
     city = city_var.get()
-    city2 = input("City: ")
     #Obtaining data to plot
     query = "SELECT DateTime, Temperature FROM temperature_data WHERE Location=%s"
-    #my_cursor.execute(query, (city2,))
-    df = pd.read_sql(query, connection, params=(city2,))
+    df = pd.read_sql(query, connection, params=(city,))
     df['DateTime'] = pd.to_datetime(df['DateTime'])
     
     #   Plotting

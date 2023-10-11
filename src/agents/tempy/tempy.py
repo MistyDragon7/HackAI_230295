@@ -58,7 +58,7 @@ tempy = Agent(name = 'tempy', seed = 'main_bot')
 
 async def get_temperature(ctx: Context):
     api_key = os.getenv("API_KEY")
-    city = input("Enter city: ")
+    city = city_var.get()
     weather_url = "https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=" + api_key
     data = requests.get(weather_url)
     weather_data = data.json()
