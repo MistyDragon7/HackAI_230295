@@ -1,3 +1,4 @@
+#Code has only been obtained from the relevant documentations.
 #   Importing necessary libraries
 from uagents import Agent
 from tkinter import *
